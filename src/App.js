@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Navbar from "./Navbar";
+import Mustwatch from "./Mustwatch";
+import Section from "./Section";
+const App = () => {
+    return (
+        <>
+           <Navbar/>
+           <Mustwatch/>
+           <Section data={8221705} title="TOP THRILLER MOVIES"/>
+           <Section data={8221723} title="TOP COMEDY MOVIES"/>
+           <Section data={8222141} title="BEST ANIMATED MOVIES"/>
+           <Section data={8222144} title="BEST FEEL GOOD MOVIES "/>
+           
+        </>
+    )
 }
-
 export default App;

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+html{
+ 
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+  
+}
+#logo{
+    font-family: 'Bangers', cursive;
+    font-size: 21px;
+}
+nav{
+    width: 100%;
+    position: absolute;
+    z-index: 10000;
+  }
+  nav > ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    list-style-type: none;
+    margin:8px;
+      }
+ .logo_list{
+  padding-left: 20px;
+ }
+  .logo_text_red:first-child{
+    color: red;
+  }
+  .pass{
+    margin-left: 10px;
+    margin-top: -4px;
+  }
+  
+  .logo_name{
+    letter-spacing: 1.7px;
+  }
+  @media (min-width: 320px) and (max-width: 768px){
+    .logo_list{
+      padding-left: 10px;
+     }
+  }
