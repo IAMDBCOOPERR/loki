@@ -28,10 +28,10 @@ const Mustwatch  = () => {
       
      {!data &&  <Swiper loop={true} pagination={true} modules={[Pagination]} className="mySwiper">
         {
-           [1,2,3,4,5,6,7,8].map(m => {
+           [1,2,3,4,5,6,7,8].map((m,i) => {
              return (
-                 <SwiperSlide className='swiperslide'>
-                    <div className='container' style={{
+                 <SwiperSlide className='swiperslide' key={i}>
+                    <div className='container' key={i} style={{
                         backgroundColor:'red',
                        
                     }}> 

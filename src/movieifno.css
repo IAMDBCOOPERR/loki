@@ -1,0 +1,291 @@
+@font-face {
+    font-family:timepass;
+    src: url('./fonts/Staatliches-Regular.ttf');
+}
+
+@media (min-width: 320px) and (max-width: 768px){
+    
+    
+    .year{
+        font-size: 18px;
+        margin-top: 3.65px;
+        color:rgba(255,255,255,0.5);
+        letter-spacing: 1px;
+       }
+    .home{
+        position: absolute;
+         z-index: 3000000;
+         top:5%;
+         left: 1.5%;
+    }
+    .home > a{
+        text-decoration: none !important;
+        color: white !important;
+        font-family: 'timepass';
+
+    }
+       .movie-data-container{
+        
+        overscroll-behavior: none;
+       }
+       .movie-info-container{
+        box-sizing: border-box;
+        position: relative;
+        
+    }
+     .movie-inner-details{
+        min-height: 40vh !important;
+        width: 100%;
+     }
+    
+  
+    .r-info{
+        padding-right: 10px;
+    }
+    .fade::before{
+        content: '';
+        width: 100%;
+        height: 101%;
+        position: absolute;
+        background: linear-gradient(to bottom,transparent,transparent,#000);
+
+        z-index: 1000;
+       }
+    .movie-details{
+        margin-top: -40px;
+        padding-left: 10px;
+        padding-right: 10px;
+        z-index: 100000;
+        position: relative;
+        font-family: 'timepass';
+    }
+    
+    .movie-data-container{
+        box-sizing: border-box;
+        position: relative;
+    }
+    .backdrop_container{
+        width: 100%;
+        height: 300px;
+        position: relative;
+        background:#f00;
+    }
+    .insta {
+        color: white;
+    }
+    .backdrop{
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        object-fit: cover;
+    }
+    .movie-pri-desc{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+    
+    #i{
+        font-size: 22px !important;
+    }
+    .send{
+        margin-left: -2px !important;
+        margin-top: 1px !important;
+    }
+    .likes{
+        margin-left: -8px !important;
+    }
+    .info-bar{
+        display: flex;
+    }
+    #lo{
+        font-size: 15px;
+        margin-top: 2.5px;
+    }
+    .lang{
+        display: flex;
+        margin-top: 5px;
+        gap: 9px;
+        padding-left: 2px;
+    }
+    .director{
+        display: flex;
+        gap: 5px;
+        margin-top: 14px;
+        letter-spacing: 1px;
+        flex-wrap: wrap;
+    }
+    .tagline{
+        margin-top: 17px;
+        color:rgba(255,255,255,0.5);
+        letter-spacing: 1px;
+        font-size: 15px;
+        line-height: 23px;
+    }
+    .watch{
+        background-color:rgb(255, 0, 0);
+        padding: 12px;
+        margin-top: 12px;
+        letter-spacing: 1px;
+        font-weight: 700;
+        border-radius:  5px;
+    }
+    .rated{
+        color: #fff;
+        border: 1px solid gray;
+        font-size: 14px;
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+    .Actors ,.Awards,.overview{
+        color:rgba(255,255,255,0.5);
+    }
+    .loc{
+        display: flex;
+    }
+    .Actors{
+        display: flex;
+        gap: 6px;
+        margin-top: 14px;
+
+    }
+    .rt{
+        margin-top: 1.2px;
+    }
+    #f{
+
+        font-weight: 100;
+        font-size: 15PX;
+        letter-spacing: 0.5px;
+        color: rgb(211,211,211);
+        
+    }
+    .wheretowatch{
+        display: flex;
+        justify-content: space-between;
+        margin: 20px;
+        margin-top: 15px;
+        margin-left: 8px;
+        margin-right: 8px;
+        color: #000;
+        background-color:#fff;
+        padding: 6px;
+        border-radius: 4px;
+    }
+    .Awards{
+        display: flex;
+        gap: 6px;
+        margin-top: 12px;
+ 
+    }
+    #ac{
+              margin-top: 2.5px;
+              padding-left: 0px;
+
+    }
+    #ar{
+        margin-top: 2.5px;
+
+    }
+    .overview{
+        margin-top: 8px;
+        display: flex;
+        gap: 7px;
+        margin-top: 14px;
+        color: rgb(211,211,211) !important;
+        line-height: 20px;
+        letter-spacing: 1px !important;
+    }
+    #av{
+        margin-top: 14px;
+    }
+    .seasons{
+        display: flex;
+        gap: 15px;
+        padding-left: 3px;
+        letter-spacing: 2px;
+        margin-top: 10px;
+    }
+    .w {
+        display: flex;
+        font-size: 12px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 5px;
+        color:#fff;
+        padding:8px;
+        gap:12px;
+        padding-left: 2px;
+      }
+      .dish{
+        font-size: 15px;
+        margin-top: -1px;
+      }
+      .t {
+        padding-top: 1px;
+        font-family: "Staatliches", cursive;
+        letter-spacing: 1px;
+        font-size: 12px;
+      }
+      .ott {
+        font-size: 10px;
+        font-variant-caps: all-petite-caps;
+        background:#f00;
+        color: white;
+        padding: 0px 4px 2.5px 4px;
+        box-sizing: border-box;
+        margin-top: -0.5px;
+      }
+      .more {
+        font-family: "Staatliches", cursive;
+        color: white;
+        margin-top: 8px;
+        font-size: 12px;
+        padding-left: 2px
+      }
+      .rel {
+        width: 100px !important;
+        height: 55px !important;
+        background-color: grey;
+        margin-top: 8px;
+        border-radius: 4px;
+        outline: none;
+        border: none;
+      }
+      
+      .more_like{
+        border-bottom: 3px solid gray;
+      }
+      .r {
+        overflow-x: scroll;
+        overflow-y: hidden;
+        height: auto;
+        display: flex;
+      }
+      .similar{
+           display: flex;
+           margin-top: 9px;
+           overflow-x:scroll ;
+           gap: 10px;
+      }
+      .similar_pic{
+        width: 170px;
+        height: 100px;
+        border-radius: 4px;
+      }
+      .similar_title{
+        font-size: 10px;
+        text-align: center;
+        color: white;
+        letter-spacing: 0.8px;
+        margin-top: 2px;
+      }
+      .border_line{
+        height: 2.5px;
+        background:#f00;
+        margin-top: 4px;
+      }
+      .similar::-webkit-scrollbar{
+        display: none;
+      }
+}
+   

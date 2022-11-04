@@ -1,17 +1,18 @@
-import Navbar from "./Navbar";
-import Mustwatch from "./Mustwatch";
-import Section from "./Section";
+import { Routes, Route } from "react-router-dom";
+import Home from "./Home";
+import MovieInfo from "./MovieInfo";
+import Similar from "./Similar";
+import Share from "./Share";
 const App = () => {
-    return (
-        <>
-           <Navbar/>
-           <Mustwatch/>
-           <Section data={8221705} title="TOP THRILLER MOVIES"/>
-           <Section data={8221723} title="TOP COMEDY MOVIES"/>
-           <Section data={8222141} title="BEST ANIMATED MOVIES"/>
-           <Section data={8222144} title="BEST FEEL GOOD MOVIES "/>
-           
-        </>
-    )
-}
+  return (
+    <>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/title/:id" element={<MovieInfo />} />
+        <Route path="/similar/:id" element={<Similar />} />
+        <Route path="/share/:id" element={<Share />} />
+      </Routes>
+    </>
+  );
+};
 export default App;

@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
 body::-webkit-scrollbar{
   display:none;
   -webkit-overflow-scrolling: touch;
 }
 html{
   scroll-behavior: smooth;
-  background-color:black;
-  color:white;
+  background-color:#000;
+  color:#fff;
 }
 #layout{
   display: flex;
@@ -31,13 +33,21 @@ html{
     margin-top: 8px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
+.song_title{
+  padding-left: 2px ;
+  padding-right: 2px;
+  font-size: 12px;
+  margin-top: 8px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:#fff;
+}
 .section{
     font-family: Roboto,Noto Naskh Arabic UI,Arial,sans-serif;
     padding: 20px;
     padding-left: 35px;
     padding-bottom: 12px;
     font-size: 24px;
-    color:white;
+    color:#fff;
  }
   .theme{
     color:rgba(255, 255, 255, 0.8);
@@ -57,7 +67,10 @@ html{
   height: 240px;
   border-radius: 6px;
 }
-
+.song_img{
+  width: 172px;
+  height: 172px;
+}
 .def{
   color: black;
 }
@@ -67,17 +80,29 @@ html{
   background-color:#151313;
   border-radius: 8px;
 }
+.songs_inner_place{
+  width: 172px;
+  height: 172px;
+  background-color:#151313;
+
+}
 
 @media (min-width: 320px) and (max-width: 768px){
   .img{
-    width: 120px;
-    height: 170px;
+    width: 110px;
+    height: 165px;
     border-radius: 6px;
     
   }
   .inner-place{
     width: 120px !important;
     height: 170px !important;
+    background-color:#151313;
+    border-radius: 8px;
+  }
+  .songs_inner_place{
+    width: 123px;
+    height: 123px;
     background-color:#151313;
     border-radius: 8px;
   }
@@ -93,5 +118,10 @@ html{
  }
  #layout{
   padding-left: 7px;
+ }
+ .song_img{
+  width: 123px;
+  height: 123px;
+  
  }
 }

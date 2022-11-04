@@ -1,0 +1,23 @@
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    z-index: 10000;
+}
+.footer{
+    margin: 15px;
+    margin-top: 20px;
+    font-family: 'Staatliches', cursive;
+}
+.footer-bar{
+     height: 0.5px;
+        background:grey;
+        margin-bottom: 12px;
+}
+.footer-links > div {
+    padding-bottom: 7px;
+    color:#fff;
+    font-size: 12px;
+    letter-spacing: 1.7px;
+}

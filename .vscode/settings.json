@@ -1,0 +1,6 @@
+{
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+    "html.format.enable": false,
+    "markdown.preview.doubleClickToSwitchToEditor": true
+}
