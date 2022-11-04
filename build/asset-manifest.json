@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bc6a141c.css",
+    "main.js": "/static/js/main.7d5b1ea0.js",
+    "static/media/Staatliches-Regular.ttf": "/static/media/Staatliches-Regular.134482285baed3198bb5.ttf",
+    "index.html": "/index.html",
+    "main.bc6a141c.css.map": "/static/css/main.bc6a141c.css.map",
+    "main.7d5b1ea0.js.map": "/static/js/main.7d5b1ea0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc6a141c.css",
+    "static/js/main.7d5b1ea0.js"
+  ]
+}
