@@ -1,0 +1,98 @@
+input[type="text"], textarea {
+
+  background-color :black; 
+  border:none;
+}
+
+input[type="text"], textarea {
+  width: 80%;
+  color: white;
+  height: 20px;
+    font-family: "Staatliches", cursive;
+letter-spacing: 1PX;
+  margin-top: 10px;
+  margin-bottom: 20px;
+      border-bottom: 2px solid gray;
+   padding-bottom: 5px;
+   background:transparent;
+}
+input[type="text"]:focus{
+    outline: none;
+}
+input::placeholder{
+    color: gray;
+}
+.footer-backdrop::before{
+     content: '';
+     position: absolute;
+     width: 101%;
+     height: 101%;
+     z-index: -1;
+    background: linear-gradient(to top,black,black,transparent,transparent);
+}
+.cine{
+    padding: 25px;
+    padding-left: 15px;
+}
+
+.plane{
+    display: inline;
+    position: absolute;
+    margin-top: 10px !important;
+    margin-left: 20px !important;
+}
+.send{
+  border: none;
+  padding: 3px;
+  border-radius: 2px; font-family: "Staatliches", cursive;
+  margin-left: 20px !important;
+  
+}
+.foot-name{
+    font-family: 'Bungee Shade', cursive !important;
+   text-align: center;
+   z-index: 10 !important;
+   margin-top: -25px !important;
+
+} 
+.foot-time,.foot-pass{
+    font-size: 35px;
+       margin-left: 5px;
+}
+.foot-time{
+    color: red;
+
+}
+.details-about{
+ font-family: "Staatliches", cursive;   
+}
+.INBETWEENERS{
+    margin: 0 auto;
+    color: #000;
+    padding: 4px;
+    border-radius: 1px;
+    font-weight: 700;
+    font-size: 12px;
+  letter-spacing: 2px;
+  background-color: white;
+    width: fit-content;
+    margin-bottom: 20px !important;
+}
+.socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons{
+    font-size: 25px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.BE{
+    display: flex;
+    margin-bottom: 15px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    justify-content: space-around;
+}

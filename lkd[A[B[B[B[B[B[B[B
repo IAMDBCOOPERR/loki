@@ -1,0 +1,47 @@
+[33mcommit c988f508831257fe836b9c735e82af34c412b80f[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: DBCOOPER <reddyindr53@gmail.com>
+Date:   Fri Nov 4 22:00:49 2022 +0530
+
+    fixed router problem
+
+[33mcommit b669c07e3ed6697221b1ccd4bae0efc63384b73c[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: DBCOOPER <reddyindr53@gmail.com>
+Date:   Fri Nov 4 20:20:43 2022 +0530
+
+    added content policy header
+
+[33mcommit a98a2510c3646eb3365ea4a692cfcf3bc11242b4[m
+Author: DBCOOPER <reddyindr53@gmail.com>
+Date:   Fri Nov 4 20:14:04 2022 +0530
+
+    hrhr
+
+[33mcommit 8d90624232336e743b6d0309b05ff6d2dfe5ac4b[m
+Author: DBCOOPER <reddyindr53@gmail.com>
+Date:   Fri Nov 4 19:28:10 2022 +0530
+
+    first commit
+
+[33mcommit 5a160a1a0751af91e6d24fbd7ebbea685241648d[m
+Author: DBCOOPER <reddyindr53@gmail.com>
+Date:   Mon Oct 17 22:27:57 2022 +0530
+
+    first commit
+
+[33mcommit 3917a0614965067a9ca9c4311804abbc728ce976[m
+Author: DBCOOPER <reddyindr53@gmail.com>
+Date:   Fri Oct 14 21:58:24 2022 +0530
+
+    swiper change
+
+[33mcommit 4c7c9ebda81c2987533fcd13b04298cf19ae110a[m
+Author: DBCOOPER <reddyindr53@gmail.com>
+Date:   Fri Oct 14 16:57:38 2022 +0530
+
+    first commit
+
+[33mcommit 4da520781760f7850448606e19a9295fdc26a3c6[m
+Author: DBCOOPER <reddyindr53@gmail.com>
+Date:   Fri Sep 16 08:07:09 2022 +0530
+
+    Initialize project using Create React App

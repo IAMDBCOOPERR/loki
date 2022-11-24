@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.a46bb51e.css",
-    "main.js": "/static/js/main.57b2ced4.js",
+    "main.js": "/static/js/main.d3ebddd5.js",
     "static/media/Staatliches-Regular.ttf": "/static/media/Staatliches-Regular.134482285baed3198bb5.ttf",
     "index.html": "/index.html",
     "main.a46bb51e.css.map": "/static/css/main.a46bb51e.css.map",
-    "main.57b2ced4.js.map": "/static/js/main.57b2ced4.js.map"
+    "main.d3ebddd5.js.map": "/static/js/main.d3ebddd5.js.map"
   },
   "entrypoints": [
     "static/css/main.a46bb51e.css",
-    "static/js/main.57b2ced4.js"
+    "static/js/main.d3ebddd5.js"
   ]
 }

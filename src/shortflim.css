@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+
+.short_flim_scroll{
+     display: flex;
+           margin-top: 11px;
+           overflow-x:scroll ;
+           gap: 10px;
+           margin-bottom: 2px;
+             padding-left: 8px;
+
+}
+.short_flim_scroll::-webkit-scrollbar{
+    display: none;
+}
+.short_pic{
+      width: 170px;
+        height: 100px;
+        border-radius: 4px;
+}
+.title_short
+{
+        font-family: Roboto,Noto Naskh Arabic UI,Arial,sans-serif;
+          color:rgba(255, 255, 255, 0.8);
+    font-size: 15px;
+       padding-left: 9px;
+  font-weight: 700;
+    letter-spacing: 1px;
+}
+.short_title{
+        padding-top: 1px;
+        font-family: "Staatliches", cursive;
+        letter-spacing: 2px;
+        font-size: 10px;
+        text-align: center;
+        color: white;
+        font-weight: 10px !important;
+        font-style: none;
+}
+.close{
+          font-family: "Staatliches", cursive;
+          background: red;
+          width: fit-content;
+          margin-left: auto;
+          letter-spacing: 2px;
+          font-size: 14px;
+          padding: 1px 4px 1px 4px;
+}
+.youtube_container{
+  position: absolute;
+  display: block;
+}

@@ -1,7 +1,5 @@
-@font-face {
-    font-family:timepass;
-    src: url('./fonts/Staatliches-Regular.ttf');
-}
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+
 
 @media (min-width: 320px) and (max-width: 768px){
     
@@ -37,7 +35,10 @@
         min-height: 40vh !important;
         width: 100%;
      }
-    
+    .youtube{
+        position: absolute;
+        z-index: 1000000 !important;
+    }
   
     .r-info{
         padding-right: 10px;
@@ -47,7 +48,7 @@
         width: 100%;
         height: 101%;
         position: absolute;
-        background: linear-gradient(to bottom,transparent,transparent,#000);
+        background: linear-gradient(to bottom,transparent,transparent,black);
 
         z-index: 1000;
        }
@@ -121,6 +122,8 @@
         letter-spacing: 1px;
         font-size: 15px;
         line-height: 23px;
+        display: flex;
+        gap: 20px;
     }
     .watch{
         background-color:rgb(255, 0, 0);
@@ -231,7 +234,7 @@
         font-variant-caps: all-petite-caps;
         background:#f00;
         color: white;
-        padding: 0px 4px 2.5px 4px;
+        padding: 1px 4px 1px 4px;
         box-sizing: border-box;
         margin-top: -0.5px;
       }
@@ -263,9 +266,19 @@
       }
       .similar{
            display: flex;
-           margin-top: 9px;
+           margin-top: 11px;
            overflow-x:scroll ;
            gap: 10px;
+           margin-bottom: 2px;
+      }
+      .trailer{
+        color: black;
+        background:#ffffff;
+        font-size: 13px;
+        height: 20px;
+        width: fit-content;
+        padding: 0px 8px 0px 8px;
+        border-radius: 2px;
       }
       .similar_pic{
         width: 170px;
@@ -282,10 +295,15 @@
       .border_line{
         height: 2.5px;
         background:#f00;
-        margin-top: 4px;
+        margin-top: 6px;
       }
       .similar::-webkit-scrollbar{
         display: none;
+      }
+      .short_flim_scroll::-webkit-scrollbar{
+        display: none;
+                font-family: "Staatliches", cursive;
+
       }
 }
    
